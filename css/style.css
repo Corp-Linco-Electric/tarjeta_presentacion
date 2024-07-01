@@ -1,0 +1,98 @@
+:root{
+    --color1-:#CF9935;
+    --color2-:#F5E513;
+    --color3-:#A7AEB7;
+    --color4-:#000000;
+    --color5-:#596E69;
+}
+.card{
+    border-radius: 4rem;
+    overflow: hidden;
+}
+.portfile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: -100px auto 15px auto;
+    overflow: hidden;
+    border: .5rem solid var(--color1-);
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--color5-);
+}
+h3{
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--color3-);
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--color5-);
+}
+.iconos a{
+    text-decoration: none;
+    color: var(--color5-);
+    font-size: 2rem;
+    flex: 5rem;
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    transition: .9s;
+}
+.iconos a i{
+    font-size: 3rem;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+}
+.iconos a:hover{
+    background-color: var(--color1-);
+    color: var(--color2-);
+    border-radius:5rem ;
+}
+
+.iconos a:hover i{
+    color: var(--color3-);
+    transform: scale(1.8);
+}
+.btn{
+    margin-top: 2rem;
+    background: var(--color1-);
+    color: var(--color2-);
+    border-radius: 8rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: .9s;
+}
+
+.btn:hover{
+    background: var(--color2-);
+    color: var(--color5-);
+}
+
+#myCarousel{
+    display: none;
+}
+footer{
+    background-color: var(--color4-);
+    color: var(--color5-);
+    text-align: center;
+    font-size: 1.2rem;
+}
